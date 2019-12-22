@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Travel Tip</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="app-container flex column">
+
+        <section class="top-container flex column">
+            <div class=" flex row">
+                <div class="logo">Travel Tip</div>
+
+                <div class="location-input-container flex row">
+                    <input class="location-input" type="text">
+                    <button class="go-btn btn">Go</button>
+                    <button class="my-location-btn btn">Location</button>
+                </div>
+            </div>
+            <div class="copy-location-container flex row">
+                <span class="current-location">Location: sdkhsdlkhag</span>
+                <button class="copy-location btn">Copy location</button>
+            </div>
+        </section>
+
+        <section class="main-container flex row">
+            <div class="locations-list-container">
+                <ul class="locations-list">
+
+                </ul>
+            </div>
+            <div class="map-container"></div>
+        </section>
+
+
+    </div>
+
+
+
+    <script src="./js/lib/jquery.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
